@@ -95,14 +95,14 @@ function render(){
 
 render();
 
-//
+
 function isOnHeart(x,y){
     x = ((x - center_x) / (min_distance * 1.2)) * 1.8;
     y = ((y - center_y) / (min_distance)) * - 1.8;
 
     var x2 = x * x;
     var y2 = y * y;
-    // Simplest Equation of lurve
+
     return (Math.pow((x2 + y2 - 1), 3) - (x2 * (y2 * y)) <= 0);
 }
 setTimeout(function() {
