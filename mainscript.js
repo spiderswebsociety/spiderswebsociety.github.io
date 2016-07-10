@@ -112,7 +112,7 @@ setTimeout(function() {
   setTimeout(function () {
     $('.twenty').addClass('show');
     setTimeout(function () {
-      $('.four').addClass('show');
+      $('.five').addClass('show');
       setTimeout(function () {
       $('.text').addClass('show');
       $('.sam-dp').addClass('show-text');

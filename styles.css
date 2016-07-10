@@ -15,42 +15,6 @@ body {
     height:100%;
     width:100%;
 }
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.bg-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.bg-content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.bg-content li {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  background: #fff;
-  opacity: 0.03;
-  top: 50%;
-  margin-top: -250px;
-  left: 50%;
-  margin-left: -250px;
-}
-/* Styling for Forming heart shapes with blinking lights*/
-
 
 .inline-blocks > .block{
   display: inline-block;
@@ -80,7 +44,7 @@ body {
   animation: show 2s;
   -webkit-animation: show 2s;
 }
-.four{
+.five{
   opacity: 0;
   font-size: 300px;
   font-family: 'Josefin Sans';
@@ -89,7 +53,7 @@ body {
   color: #fff;
   margin: 0px 0px;
 }
-.four.show {
+.five.show {
   opacity: 1;
   animation: show 2s;
   -webkit-animation: show 2s;
